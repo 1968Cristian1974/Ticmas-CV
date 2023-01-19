@@ -1,0 +1,130 @@
+/*Barra de navegacion*/
+
+.navbar{
+	padding: 5px;
+	background-color: lightgrey;
+}
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+/*Redes Sociales*/
+.red-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    height: 97px;
+    width: 150px;
+}
+.nav-link:hover{
+    background: blueviolet;
+}
+#navbar-toggler li{
+  	position: relative;
+}
+#subred1{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color:#97ca97 ;
+    padding: 3px 8px;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-brand{
+	display: none;
+}
+}
+
+/*Seccion Principal*/
+.principal{
+	min-height: 450px;
+	text-align: center;
+	background: url("resonador3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/*Seccion Perfil*/
+.perfil{
+	height: 250px;
+	padding: 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfil .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
+.seccion-texto{
+	text-align: justify;
+}
+
+/*Estilos generales*/
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+h1{
+	font-size: 40px;
+	font-family:'Philosopher', sans-serif;
+}
+.seccion-negra{
+	color: white;
+	background-color: black;
+}
+.principal-principal{
+	padding: 48px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.principal-imagen-cv{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin:20px;
+}
+.columna{
+	padding: 20px;
+	text-align: center;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+ul.contacto li{
+	text-align: left;
+}
+h4:hover {
+	color: blueviolet;
+}
+.clase_h2 {
+	font-size: 20px;
+	color: goldenrod;
+	margin-left: 30px;
+	
+}
+#mi_parrafo1 {
+	margin: 30px;
+	text-align: justify;
+}
+#mi_parrafo2 {
+	margin: 0px;
+}
+h6{
+	text-align: center;
+}
+
+
+
+
+
+
+
