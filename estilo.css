@@ -1,13 +1,13 @@
 /*Barra de navegacion*/
 
 .navbar{
-	padding: 5px;
 	background-color: lightgrey;
+	
 }
-.navbar-collapse{
-	align-items: center;
-	justify-content: space-between;
+.navbar-nav{
+	text-align: left;
 }
+
 /*Redes Sociales*/
 .red-texto{
     display: flex;
@@ -24,12 +24,15 @@
   	position: relative;
 }
 #subred1{
+	display: none;
     position: absolute;
     top: 100%;
-    left: 0px;
     background-color:#97ca97 ;
-    padding: 3px 8px;
-    display: none;
+}
+.sub {
+	padding-left: 0;
+	padding-right: 28px;
+	text-align: left;
 }
 
 @media screen and (max-width: 767px) {
@@ -121,6 +124,8 @@ h4:hover {
 }
 h6{
 	text-align: center;
+}
+ul{ list-style: none;
 }
 
 
