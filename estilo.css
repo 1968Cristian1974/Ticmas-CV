@@ -40,9 +40,10 @@
 
 /*Seccion Principal*/
 .principal{
+	color:rgb(36, 252, 126);
 	min-height: 450px;
 	text-align: center;
-	background: url("resonador3.jpg");
+	background: url("tac.gif");
 	background-size: cover;
 	background-position: center;
 }
