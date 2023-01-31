@@ -18,7 +18,7 @@
     width: 150px;
 }
 .nav-link:hover{
-    background: blueviolet;
+    background: rgb(10, 162, 250);
 }
 #navbar-toggler li{
   	position: relative;
@@ -43,10 +43,10 @@
 
 /*Seccion Principal*/
 .principal{
-	color:rgb(36, 252, 126);
+	color:#f1f2f5;
 	min-height: 450px;
 	text-align: center;
-	background: url("tac.gif");
+	background: URL("tac1.jfif");
 	background-size: cover;
 	background-position: center;
 }
@@ -96,6 +96,8 @@ h1{
 	margin:20px;
 }
 .columna{
+	color: #f8f9fa;
+	background-color: rgb(19 55 108);
 	padding: 20px;
 	text-align: center;
     display: flex;
